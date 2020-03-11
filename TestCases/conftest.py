@@ -12,6 +12,7 @@ from PageObjects.login_page import LoginPage
 from PageObjects.home_page import HomePage
 from PageObjects.student_list_page import StudentListPage
 from PageObjects.student_tag_page import StudentTagPage
+from PageObjects.school_list_page import SchoolListPage
 from PageLocators.home_page_locators import HomeLocs as hl
 
 
@@ -52,6 +53,10 @@ def home_driver():
 
 @pytest.fixture(scope="class")
 def init_student_list(home_driver):
+    """
+    学生列表前置
+    :return:
+    """
     time.sleep(1)
     home_driver[0].click_element(hl.student_menu, "点击学生管理")
     time.sleep(1)
@@ -63,6 +68,10 @@ def init_student_list(home_driver):
 
 @pytest.fixture(scope="class")
 def init_student_tag(home_driver):
+    """
+    学生标签前置
+    :return:
+    """
     time.sleep(1)
     home_driver[0].click_element(hl.student_menu, "点击学生管理")
     time.sleep(1)
@@ -71,6 +80,20 @@ def init_student_tag(home_driver):
 
     yield slp
 
+
+@pytest.fixture(scope="class")
+def init_school_list(home_driver):
+    """
+    学校列表前置
+    :return:
+    """
+    time.sleep(1)
+    home_driver[0].click_element(hl.school_menu, "点击学校管理")
+    time.sleep(1)
+    home_driver[0].click_element(hl.school_list_menu, "点击学校列表")
+    sch = SchoolListPage(home_driver[1])
+
+    yield sch
 
 
 

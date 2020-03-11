@@ -41,6 +41,7 @@ class StudentListPage(BasePage):
         根据学校名称搜索列表信息
         :return:
         """
+        self.web_refresh()
         self.input_text(search_school_name, sl.input_shcool_name, "输入学校名称")
         self.click_element(sl.search_btn, "点击搜索按钮")
         time.sleep(1)
@@ -61,7 +62,7 @@ class StudentListPage(BasePage):
         获取学校名称列表
         :return: 返回学校名称列表
         """
-        l = self.get_elements(sl.table_shcool_name, "获取当前页列表中学校名称的列表并以list返回")
+        l = self.get_elements(sl.table_school_name, "获取当前页列表中学校名称的列表并以list返回")
         names = []
         if l.__len__() == 0:
             """
@@ -74,7 +75,7 @@ class StudentListPage(BasePage):
             return result_text
         else:
             for i in range(1, l.__len__()+1):
-                new_loc = (sl.table_shcool_name1[0], sl.table_shcool_name1[1].format(i))
+                new_loc = (sl.table_school_name[0], sl.table_school_name[1].format(i))
                 text = self.get_element_text(new_loc, "列表中学校名称文本值")
                 names.append(text)
             return names  # 以列表形式返回学校名称

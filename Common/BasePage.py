@@ -109,7 +109,7 @@ class BasePage:
             end_time = time.time()
             log.info("等待时长为：{}".format(end_time - start_time))
 
-    def if_text_in_element(self, loc, img_doc, text, timeout=20, frequency=0.5):
+    def if_text_in_element(self, loc, img_doc, text, timeout=10, frequency=0.5):
         """
         文本text是否在元素中存在
         :param loc:
@@ -129,7 +129,7 @@ class BasePage:
             log.exception("元素{}不存在！")
             return False
 
-    def if_ele_is_exist(self, loc, img_doc, timeout=20, frequency=0.5):
+    def if_ele_is_exist(self, loc, img_doc, timeout=10, frequency=0.5):
         """
         元素是否存在
         :param loc:
@@ -149,7 +149,7 @@ class BasePage:
             log.exception("元素{}不存在！".format(loc))
             return False
 
-    def wait_page_contains_element(self, loc, img_doc, timeout=20, frequency=0.5):
+    def wait_page_contains_element(self, loc, img_doc, timeout=10, frequency=0.5):
         """
         等待页面包含元素（元素存在）
         判断元素是否存在
