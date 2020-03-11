@@ -1,0 +1,9 @@
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]')可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', '//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]')。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button[@class='el-button color_b el-button--danger el-button--small']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button[@class='el-button color_b el-button--danger el-button--small']")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@class='el-message-box__message']//p")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='el-message-box__message']//p")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//div[@class='el-message-box__message']//p")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:确认将该学生从当前标签中移除？

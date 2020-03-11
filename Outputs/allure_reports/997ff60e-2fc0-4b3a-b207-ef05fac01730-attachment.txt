@@ -1,0 +1,21 @@
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]/td[5]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01699995994567871
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]/td[5]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]/td[5]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200204280829
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]')可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', '//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]')。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button[@class='el-button color_b el-button--danger el-button--small']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button[@class='el-button color_b el-button--danger el-button--small']")。
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[contains(text(),'确定')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//span[contains(text(),'确定')]")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//p[@class='el-message__content']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素('xpath', "//p[@class='el-message__content']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//p[@class='el-message__content']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:操作完成
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]/td[5]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009000062942504883
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]/td[5]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]/td[5]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200110276562

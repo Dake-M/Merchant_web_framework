@@ -1,0 +1,18 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='添加标签']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='添加标签']")。
+INFO     web_log:BasePage.py:180 元素('xpath', "//label[contains(.,'标签名称')]/following-sibling::div//input")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//label[contains(.,'标签名称')]/following-sibling::div//input")输入信息dake_tag。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='确 定']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='确 定']")。
+INFO     web_log:BasePage.py:180 元素('xpath', "//tr[1]//button//span[contains(text(),'学生列表')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//tr[1]//button//span[contains(text(),'学生列表')]")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@class='info-title']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.5310001373291016
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='info-title']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//div[@class='info-title']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生标签 > 学生列表
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//span[@class='el-table__empty-text']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[@class='el-table__empty-text']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//span[@class='el-table__empty-text']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:暂无数据

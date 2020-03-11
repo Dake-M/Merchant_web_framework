@@ -1,0 +1,61 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='请输入姓名']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='请输入姓名']")输入信息汪。
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[text()='搜索']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//span[text()='搜索']")。
+INFO     web_log:BasePage.py:141 等待元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:200 查找元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00800013542175293
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009999990463256836
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.007999897003173828
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.004999876022338867
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00800013542175293
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0069997310638427734
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0069997310638427734
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//td[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素('xpath', '//td[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//td[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月

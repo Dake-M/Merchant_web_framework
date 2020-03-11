@@ -1,0 +1,16 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='添加标签']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='添加标签']")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@class='el-dialog__header']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0070002079010009766
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='el-dialog__header']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//div[@class='el-dialog__header']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:新增标签
+INFO     web_log:BasePage.py:180 元素('xpath', "//label[contains(.,'标签名称')]/following-sibling::div//input")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//label[contains(.,'标签名称')]/following-sibling::div//input")输入信息三好生。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='确 定']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='确 定']")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//p[@class='el-message__content']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.008999824523925781
+INFO     web_log:BasePage.py:180 元素('xpath', "//p[@class='el-message__content']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//p[@class='el-message__content']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签已存在

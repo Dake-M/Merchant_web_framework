@@ -1,0 +1,5 @@
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@class='content-box back3']//span[@class='text']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='content-box back3']//span[@class='text']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//div[@class='content-box back3']//span[@class='text']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:今日缴费总金额

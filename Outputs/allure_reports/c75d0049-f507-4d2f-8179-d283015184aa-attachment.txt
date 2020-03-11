@@ -1,0 +1,12 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='账号']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='账号']")输入信息13222222211。
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='密码']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='密码']")输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='slider-btn']//img")可见。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button[@class='el-button userbtn el-button--primary el-button--medium']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button[@class='el-button userbtn el-button--primary el-button--medium']")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//p[@class='el-message__content']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素('xpath', "//p[@class='el-message__content']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//p[@class='el-message__content']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:账号或密码错误

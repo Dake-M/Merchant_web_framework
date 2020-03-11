@@ -1,0 +1,25 @@
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[1]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[1]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[1]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:序号
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000249862670898
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签名称
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[3]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01699995994567871
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[3]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[3]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生数量
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[4]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[4]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[4]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签来源
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[5]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013999700546264648
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[5]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[5]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:操作

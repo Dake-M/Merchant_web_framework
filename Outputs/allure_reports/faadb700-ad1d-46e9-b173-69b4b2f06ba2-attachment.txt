@@ -1,0 +1,20 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//th[contains(@class,'is-leaf')]//span[@class='el-checkbox__inner']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//th[contains(@class,'is-leaf')]//span[@class='el-checkbox__inner']")。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button[@class='el-button color_b el-button--danger el-button--small']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button[@class='el-button color_b el-button--danger el-button--small']")。
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[contains(text(),'确定')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//span[contains(text(),'确定')]")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//span[@class='el-table__empty-text']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000249862670898
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[@class='el-table__empty-text']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//span[@class='el-table__empty-text']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:暂无数据
+INFO     web_log:BasePage.py:180 元素('xpath', "//tr[1]//button//span[contains(text(),'删除')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//tr[1]//button//span[contains(text(),'删除')]")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@class='el-message-box__message']//p")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.016000032424926758
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='el-message-box__message']//p")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//div[@class='el-message-box__message']//p")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:确认是否删除该学生标签？删除后，该标签下的学生也会被移除。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[contains(text(),'确定')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[contains(text(),'确定')]")。

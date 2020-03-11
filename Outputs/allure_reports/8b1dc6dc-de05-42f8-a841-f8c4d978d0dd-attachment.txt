@@ -1,0 +1,3 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[contains(@class,'user-name el-dropdown-selfdefine')]")可见。
+INFO     web_log:BasePage.py:180 元素('xpath', "//li[text()='退出']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//li[text()='退出']")。

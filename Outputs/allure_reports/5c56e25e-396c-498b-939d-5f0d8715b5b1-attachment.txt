@@ -1,0 +1,55 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='请输入分组名称']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='请输入分组名称']")输入信息分组。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button[@class='el-button el-button--primary el-button--small']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button[@class='el-button el-button--primary el-button--small']")。
+INFO     web_log:BasePage.py:200 查找元素('xpath', '//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[2]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[2]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[2]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[3]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01100015640258789
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[3]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[3]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[4]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[4]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[4]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[5]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.010999917984008789
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[5]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[5]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[6]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[6]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[6]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[7]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.011999845504760742
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[7]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[7]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:分组14
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[8]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[8]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[8]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:分组14
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[9]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[9]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[9]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[10]//td[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[10]//td[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[10]//td[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组

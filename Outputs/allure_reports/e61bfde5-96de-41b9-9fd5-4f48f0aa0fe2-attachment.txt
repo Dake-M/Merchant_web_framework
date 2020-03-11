@@ -1,0 +1,10 @@
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@id='tab-1']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.011999845504760742
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@id='tab-1']")可见。
+INFO     web_log:BasePage.py:298 获取元素('xpath', "//div[@id='tab-1']")的属性tabindex。
+INFO     web_log:BasePage.py:309 获取到的元素属性值为:0
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@id='tab-2']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.018000125885009766
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@id='tab-2']")可见。
+INFO     web_log:BasePage.py:298 获取元素('xpath', "//div[@id='tab-2']")的属性tabindex。
+INFO     web_log:BasePage.py:309 获取到的元素属性值为:-1

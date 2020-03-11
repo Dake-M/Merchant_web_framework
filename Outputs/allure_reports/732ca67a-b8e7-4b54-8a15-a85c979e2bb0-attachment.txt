@@ -1,0 +1,11 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='请输入姓名']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='请输入姓名']")输入信息汪。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='搜索']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='搜索']")。
+INFO     web_log:BasePage.py:141 等待元素('xpath', '//td[2]/div[1]')可见。
+INFO     web_log:BasePage.py:200 查找元素('xpath', '//td[2]/div[1]')可见。
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]/td[2]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]/td[2]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]/td[2]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月

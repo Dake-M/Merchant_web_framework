@@ -1,0 +1,9 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='导入']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='导入']")。
+INFO     web_log:BasePage.py:180 元素('xpath', "//i[@class='el-icon-upload']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//i[@class='el-icon-upload']")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', " //p[@class='el-message__content']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素('xpath', " //p[@class='el-message__content']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', " //p[@class='el-message__content']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:导入成功

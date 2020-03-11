@@ -241,7 +241,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 16-Dec-2019 at 14:04:30 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.0</p>
+    <p>Report generated on 20-Dec-2019 at 10:36:02 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -260,8 +260,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.0</td></tr></table>
     <h2>Summary</h2>
-    <p>16 tests ran in 31.65 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">16 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>38 tests ran in 150.59 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">38 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -275,61 +275,205 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">TestCases/test_02_home_page.py::TestHome::test01_title_info</td>
-          <td class="col-duration">1.08</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test01_merchant_login_success</td>
+          <td class="col-duration">3.87</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入账号查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入账号对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
-INFO     web_log:BasePage.py:173 在输入密码查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入密码对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
-INFO     web_log:BasePage.py:173 在滑动验证查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
-INFO     web_log:BasePage.py:173 在点击登录按钮查找元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击登录按钮点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取title文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.040000200271606445
-INFO     web_log:BasePage.py:173 在获取title文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取title文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:今日缴费情况<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;name&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.020999908447265625
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;name&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;name&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:兴和网络测试
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[contains(@class,&#x27;user-name el-dropdown-selfdefine&#x27;)]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.026000022888183594
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[contains(@class,&#x27;user-name el-dropdown-selfdefine&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[contains(@class,&#x27;user-name el-dropdown-selfdefine&#x27;)]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:13222222222(管理员)<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test02_merchant_login_unverify</td>
+          <td class="col-duration">1.21</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.018000125885009766
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:请拖动验证滑块<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test03_merchant_login_unnormale[merchant_user0]</td>
+          <td class="col-duration">1.70</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014999866485595703
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:请输入账号<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test03_merchant_login_unnormale[merchant_user1]</td>
+          <td class="col-duration">1.71</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.016000032424926758
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:请输入账号<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test03_merchant_login_unnormale[merchant_user2]</td>
+          <td class="col-duration">1.73</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:请输入密码<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test03_merchant_login_unnormale[merchant_user3]</td>
+          <td class="col-duration">1.72</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222211。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:账号或密码错误<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_01_merchant_login.py::TestLogin::test03_merchant_login_unnormale[merchant_user4]</td>
+          <td class="col-duration">1.76</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222211。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:账号或密码错误1<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_02_home_page.py::TestHome::test01_title_info</td>
+          <td class="col-duration">1.04</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:今日缴费情况<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_02_home_page.py::TestHome::test02_box1_msg</td>
-          <td class="col-duration">0.03</td>
+          <td class="col-duration">0.04</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取box1_msg文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back1&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在获取box1_msg文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back1&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取box1_msg文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back1&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:今日收费学校总数<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back1&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back1&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back1&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:今日收费学校总数<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_02_home_page.py::TestHome::test03_box2_msg</td>
-          <td class="col-duration">0.03</td>
+          <td class="col-duration">0.04</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取box1_msg文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back2&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在获取box1_msg文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back2&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取box1_msg文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back2&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:今日缴费人数<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back2&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back2&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back2&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:今日缴费人数<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_02_home_page.py::TestHome::test04_box3_msg</td>
-          <td class="col-duration">0.03</td>
+          <td class="col-duration">0.04</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取box1_msg文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back3&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在获取box1_msg文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back3&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取box1_msg文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back3&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:今日缴费总金额<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back3&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back3&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back3&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:今日缴费总金额<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -338,29 +482,29 @@ INFO     web_log:BasePage.py:277 获取到的元素文本内容为:今日缴费�
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取box1_msg文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back4&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在获取box1_msg文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back4&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取box1_msg文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back4&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:当期缴费金额<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back4&#x27;]//span[@class=&#x27;text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back4&#x27;]//span[@class=&#x27;text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;content-box back4&#x27;]//span[@class=&#x27;text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:当期缴费金额<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_02_home_page.py::TestHome::test06_tab_attr</td>
-          <td class="col-duration">0.04</td>
+          <td class="col-duration">0.06</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取tab1元素属性值页面等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在获取tab1元素属性值查找元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:291 在获取tab1元素属性值页面获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)的属性tabindex。
-INFO     web_log:BasePage.py:302 获取到的元素属性值为:0
-INFO     web_log:BasePage.py:151 在获取tab2元素属性值页面等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在获取tab2元素属性值查找元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:291 在获取tab2元素属性值页面获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)的属性tabindex。
-INFO     web_log:BasePage.py:302 获取到的元素属性值为:-1<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.011999845504760742
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:298 获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)的属性tabindex。
+INFO     web_log:BasePage.py:309 获取到的元素属性值为:0
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.018000125885009766
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:298 获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)的属性tabindex。
+INFO     web_log:BasePage.py:309 获取到的元素属性值为:-1<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
@@ -369,376 +513,787 @@ INFO     web_log:BasePage.py:302 获取到的元素属性值为:-1<br/></div></t
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取table1表格第二列字段名称页面等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在获取table1表格第二列字段名称查找元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在获取table1表格第二列字段名称页面获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:学校名称
-INFO     web_log:BasePage.py:151 在获取table1表格第五列字段名称页面等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.013000011444091797
-INFO     web_log:BasePage.py:173 在获取table1表格第五列字段名称查找元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在获取table1表格第五列字段名称页面获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:累计收费金额<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.016000032424926758
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学校名称
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:累计收费金额<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_02_home_page.py::TestHome::test08_change_tab</td>
-          <td class="col-duration">1.13</td>
+          <td class="col-duration">1.18</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在点击分组总览查找元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击分组总览点击元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)。
-INFO     web_log:BasePage.py:151 在获取tab1元素属性值页面等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.00599980354309082
-INFO     web_log:BasePage.py:173 在获取tab1元素属性值查找元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:291 在获取tab1元素属性值页面获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)的属性tabindex。
-INFO     web_log:BasePage.py:302 获取到的元素属性值为:-1
-INFO     web_log:BasePage.py:151 在获取tab2元素属性值页面等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.005000114440917969
-INFO     web_log:BasePage.py:173 在获取tab2元素属性值查找元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:291 在获取tab2元素属性值页面获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)的属性tabindex。
-INFO     web_log:BasePage.py:302 获取到的元素属性值为:0
-INFO     web_log:BasePage.py:151 在获取table2表格第二列字段名称页面等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.004999876022338867
-INFO     web_log:BasePage.py:173 在获取table2表格第二列字段名称查找元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在获取table2表格第二列字段名称页面获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:分组名称
-INFO     web_log:BasePage.py:151 在获取table2表格第五列字段名称页面等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.00599980354309082
-INFO     web_log:BasePage.py:173 在获取table2表格第五列字段名称查找元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在获取table2表格第五列字段名称页面获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:当期收费金额<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00800013542175293
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:298 获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-1&#x27;]&quot;)的属性tabindex。
+INFO     web_log:BasePage.py:309 获取到的元素属性值为:-1
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009000301361083984
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:298 获取元素(&#x27;xpath&#x27;, &quot;//div[@id=&#x27;tab-2&#x27;]&quot;)的属性tabindex。
+INFO     web_log:BasePage.py:309 获取到的元素属性值为:0
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.006999969482421875
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:分组名称
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009999752044677734
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:当期收费金额<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_02_home_page.py::TestHome::test09_quit_login</td>
-          <td class="col-duration">2.42</td>
+          <td class="col-duration">2.54</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在鼠标移动到帐号上面查找元素(&#x27;xpath&#x27;, &quot;//span[contains(@class,&#x27;user-name el-dropdown-selfdefine&#x27;)]&quot;)可见。
-INFO     web_log:BasePage.py:173 在点击退出按钮查找元素(&#x27;xpath&#x27;, &quot;//li[text()=&#x27;退出&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击退出按钮点击元素(&#x27;xpath&#x27;, &quot;//li[text()=&#x27;退出&#x27;]&quot;)。<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[contains(@class,&#x27;user-name el-dropdown-selfdefine&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//li[text()=&#x27;退出&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//li[text()=&#x27;退出&#x27;]&quot;)。<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test01_title_info</td>
-          <td class="col-duration">1.09</td>
+          <td class="col-duration">1.04</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入账号查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入账号对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
-INFO     web_log:BasePage.py:173 在输入密码查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入密码对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
-INFO     web_log:BasePage.py:173 在滑动验证查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
-INFO     web_log:BasePage.py:173 在点击登录按钮查找元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击登录按钮点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
-INFO     web_log:BasePage.py:173 在点击学生管理查找元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生管理&#x27;)]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击学生管理点击元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生管理&#x27;)]&quot;)。
-INFO     web_log:BasePage.py:173 在点击学生列表查找元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生列表&#x27;)]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击学生列表点击元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生列表&#x27;)]&quot;)。<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在获取title文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.039999961853027344
-INFO     web_log:BasePage.py:173 在获取title文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取title文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:学生管理<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生管理&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生管理&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生列表&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生列表&#x27;)]&quot;)。<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01699972152709961
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生管理<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test02_table_header</td>
-          <td class="col-duration">0.20</td>
+          <td class="col-duration">0.23</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.015000104904174805
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:学校名称
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.015000104904174805
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:分组
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:年级数量
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:班级数量
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:学生数量
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:操作<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000249862670898
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学校名称
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:年级数量
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:班级数量
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生数量
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:操作<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test03_search_school_by_name</td>
-          <td class="col-duration">1.27</td>
+          <td class="col-duration">2.61</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入学校名称查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入学校名称对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)输入信息Gander。
-INFO     web_log:BasePage.py:173 在点击搜索按钮查找元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击搜索按钮点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)。
-INFO     web_log:BasePage.py:193 在获取当前页列表中学校名称的列表并以list返回查找元素s(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:151 在列表中学校名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.023000001907348633
-INFO     web_log:BasePage.py:173 在列表中学校名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学校名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:DakeGander
-INFO     web_log:BasePage.py:151 在列表中学校名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.015000104904174805
-INFO     web_log:BasePage.py:173 在列表中学校名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学校名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:Gander网校<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)输入信息Gander。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)。
+INFO     web_log:BasePage.py:200 查找元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014999628067016602
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:DakeGander
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:DakeGander<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test04_search_school_by_group</td>
-          <td class="col-duration">2.93</td>
+          <td class="col-duration">2.91</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入分组名称查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入分组名称&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入分组名称对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入分组名称&#x27;]&quot;)输入信息分组。
-INFO     web_log:BasePage.py:173 在点击搜索按钮查找元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击搜索按钮点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)。
-INFO     web_log:BasePage.py:193 在获取当前页列表中分组名称的列表并以list返回查找元素s(&#x27;xpath&#x27;, &#x27;//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.028999805450439453
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.014000177383422852
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.013000011444091797
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:分组14
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:分组14
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组
-INFO     web_log:BasePage.py:151 在列表中分组名称文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999679565429688
-INFO     web_log:BasePage.py:173 在列表中分组名称文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中分组名称文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:jiji分组<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入分组名称&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入分组名称&#x27;]&quot;)输入信息分组。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)。
+INFO     web_log:BasePage.py:200 查找元素(&#x27;xpath&#x27;, &#x27;//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01100015640258789
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.010999917984008789
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.011999845504760742
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:分组14
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:分组14
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:jiji分组<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test05_into_school_detail</td>
-          <td class="col-duration">5.07</td>
+          <td class="col-duration">5.03</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入学校名称查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入学校名称对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)输入信息Gander网校。
-INFO     web_log:BasePage.py:173 在点击搜索按钮查找元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击搜索按钮点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)。
-INFO     web_log:BasePage.py:151 在获取学生数量文本框页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[5]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.03900003433227539
-INFO     web_log:BasePage.py:173 在获取学生数量文本框查找元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[5]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在获取学生数量文本框页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[5]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:6560
-INFO     web_log:BasePage.py:173 在点击详情按钮查找元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;详情&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击详情按钮点击元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;详情&#x27;]&quot;)。
-INFO     web_log:BasePage.py:151 在获取列表总数量页面等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-pagination__total&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.032000064849853516
-INFO     web_log:BasePage.py:173 在获取列表总数量查找元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-pagination__total&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取列表总数量页面获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-pagination__total&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:共 6560 条
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.014000177383422852
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:姓名
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:性别
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:证件类型
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:证件号码
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:年级
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:班级
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[7]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[7]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[7]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:绑定状态
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[8]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999679565429688
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[8]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[8]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:父/母姓名
-INFO     web_log:BasePage.py:151 在取列表头信息页面等待元素(&#x27;xpath&#x27;, &#x27;//th[9]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012999773025512695
-INFO     web_log:BasePage.py:173 在取列表头信息查找元素(&#x27;xpath&#x27;, &#x27;//th[9]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在取列表头信息页面获取元素(&#x27;xpath&#x27;, &#x27;//th[9]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:联系电话
-INFO     web_log:BasePage.py:151 在获取title文案页面等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01699995994567871
-INFO     web_log:BasePage.py:173 在获取title文案查找元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:266 在获取title文案页面获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:Gander网校 - 学生列表<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)输入信息Gander网校。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button el-button--primary el-button--small&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[5]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[5]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[5]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:6561
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;详情&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;详情&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-pagination__total&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.017999887466430664
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-pagination__total&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-pagination__total&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:共 6561 条
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0069997310638427734
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:姓名
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0070002079010009766
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:性别
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:证件类型
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009999752044677734
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:证件号码
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.006999969482421875
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:年级
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.008999824523925781
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[6]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:班级
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[7]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[7]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[7]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:绑定状态
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[8]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[8]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[8]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:父/母姓名
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[9]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.010999679565429688
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[9]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[9]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:联系电话
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.007999897003173828
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校 - 学生列表<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test06_school_search_student_by_name</td>
-          <td class="col-duration">1.53</td>
+          <td class="col-duration">1.47</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入学生姓名查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入学生姓名对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)输入信息汪。
-INFO     web_log:BasePage.py:173 在点击搜索按钮查找元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击搜索按钮点击元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)。
-INFO     web_log:BasePage.py:193 在获取当前页列表中学生姓名的列表并以list返回查找元素s(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01399993896484375
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪星月
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪羽颖
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪孟
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪靓
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01699995994567871
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[5]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪杨兴
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.011999845504760742
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[6]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪浩男
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[7]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪泺
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[8]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪杨洲
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[9]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪子轩
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[10]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪奕然
-INFO     web_log:BasePage.py:151 在列表中学生姓名文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[11]//td[1]//div[1]&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在列表中学生姓名文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[11]//td[1]//div[1]&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生姓名文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[11]//td[1]//div[1]&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:汪筱璐<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)输入信息汪。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)。
+INFO     web_log:BasePage.py:141 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:200 查找元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00800013542175293
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009999990463256836
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.007999897003173828
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.004999876022338867
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00800013542175293
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0069997310638427734
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0069997310638427734
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.00599980354309082
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//td[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_03_student_list.py::TestStudentList::test07_school_search_student_by_id</td>
-          <td class="col-duration">2.74</td>
+          <td class="col-duration">2.73</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:173 在输入学生证件号查找元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入完整证件号或末4位&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:231 在输入学生证件号对元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入完整证件号或末4位&#x27;]&quot;)输入信息5628。
-INFO     web_log:BasePage.py:173 在点击搜索按钮查找元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)可见。
-INFO     web_log:BasePage.py:215 在点击搜索按钮点击元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)。
-INFO     web_log:BasePage.py:193 在获取当前页列表中学生证件号的列表并以list返回查找元素s(&#x27;xpath&#x27;, &#x27;//td[4]/div&#x27;)可见。
-INFO     web_log:BasePage.py:151 在列表中学生证件号文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]//div&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.023000001907348633
-INFO     web_log:BasePage.py:173 在列表中学生证件号文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]//div&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生证件号文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]//div&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:430124200205195628
-INFO     web_log:BasePage.py:151 在列表中学生证件号文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[4]//div&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.010999917984008789
-INFO     web_log:BasePage.py:173 在列表中学生证件号文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[4]//div&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生证件号文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[4]//div&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:430124200111065628
-INFO     web_log:BasePage.py:151 在列表中学生证件号文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[4]//div&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.01100015640258789
-INFO     web_log:BasePage.py:173 在列表中学生证件号文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[4]//div&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生证件号文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[4]//div&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:430124200204245628
-INFO     web_log:BasePage.py:151 在列表中学生证件号文本值页面等待元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[4]//div&#x27;)存在。
-INFO     web_log:BasePage.py:164 等待时长为：0.012000083923339844
-INFO     web_log:BasePage.py:173 在列表中学生证件号文本值查找元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[4]//div&#x27;)可见。
-INFO     web_log:BasePage.py:266 在列表中学生证件号文本值页面获取元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[4]//div&#x27;)的文本值。
-INFO     web_log:BasePage.py:277 获取到的元素文本内容为:430124200206275628<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入完整证件号或末4位&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入完整证件号或末4位&#x27;]&quot;)输入信息5628。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[text()=&#x27;搜索&#x27;]&quot;)。
+INFO     web_log:BasePage.py:200 查找元素(&#x27;xpath&#x27;, &#x27;//td[4]/div&#x27;)可见。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]//div&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]//div&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]//div&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200205195628
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[4]//div&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[4]//div&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]//td[4]//div&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200111065628
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[4]//div&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[4]//div&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[3]//td[4]//div&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200204245628
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[4]//div&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[4]//div&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[4]//td[4]//div&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200206275628<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test01_title_info</td>
+          <td class="col-duration">0.94</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;账号&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;密码&#x27;]&quot;)输入信息13222222222。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;slider-btn&#x27;]//img&quot;)可见。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button userbtn el-button--primary el-button--medium&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生管理&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生管理&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生标签&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[@slot=&#x27;title&#x27;][contains(.,&#x27;学生标签&#x27;)]&quot;)。<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.5239999294281006
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生标签<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test02_table_header</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[1]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:序号
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000249862670898
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[2]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签名称
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01699995994567871
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[3]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生数量
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[4]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签来源
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013999700546264648
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//th[5]//div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:操作<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test03_add_tag_title_info</td>
+          <td class="col-duration">2.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:新增标签<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test04_normal_add_tag</td>
+          <td class="col-duration">3.45</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)输入信息dake_tag。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:添加成功
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:dake_tag
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015999794006347656
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:教育局
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.008999824523925781
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[2]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:dake_tag
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]//td[4]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:教育局
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//tr[1]//button//span[contains(text(),&#x27;删除&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//tr[1]//button//span[contains(text(),&#x27;删除&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:确认是否删除该学生标签？删除后，该标签下的学生也会被移除。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[contains(text(),&#x27;确定&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[contains(text(),&#x27;确定&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.006999969482421875
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:删除成功!<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test05_unnormal_add_tag[unnormal_tag_data0]</td>
+          <td class="col-duration">3.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:新增标签
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)输入信息。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0070002079010009766
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签名称不能为空<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test05_unnormal_add_tag[unnormal_tag_data1]</td>
+          <td class="col-duration">2.96</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.0070002079010009766
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-dialog__header&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:新增标签
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)输入信息三好生。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.008999824523925781
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:标签已存在<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test06_tag_title_info</td>
+          <td class="col-duration">5.99</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;添加标签&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//label[contains(.,&#x27;标签名称&#x27;)]/following-sibling::div//input&quot;)输入信息dake_tag。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;确 定&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//tr[1]//button//span[contains(text(),&#x27;学生列表&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//tr[1]//button//span[contains(text(),&#x27;学生列表&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.5310001373291016
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;info-title&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学生标签 &gt; 学生列表
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:暂无数据<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test07_import_student</td>
+          <td class="col-duration">1.73</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;导入&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;导入&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//i[@class=&#x27;el-icon-upload&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//i[@class=&#x27;el-icon-upload&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot; //p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot; //p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot; //p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:导入成功<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test08_search_by_school_name[school_name0]</td>
+          <td class="col-duration">2.32</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)输入信息Gander。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)。
+INFO     web_log:BasePage.py:141 等待元素(&#x27;xpath&#x27;, &#x27;//td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:200 查找元素(&#x27;xpath&#x27;, &#x27;//td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[6]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[6]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[2]/td[6]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[2]/td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[2]/td[6]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[3]/td[6]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[3]/td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[3]/td[6]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[4]/td[6]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[4]/td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[4]/td[6]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test08_search_by_school_name[school_name1]</td>
+          <td class="col-duration">13.61</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2019-12-20 10:35:32,355 - [ERROR] - 元素(&#x27;xpath&#x27;, &#x27;//td[6]/div[1]&#x27;)不存在！ - if_ele_is_exist - 149
+Traceback (most recent call last):
+  File &quot;D:\git_web_project\merchant_web_framework\Common\BasePage.py&quot;, line 143, in if_ele_is_exist
+    WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+  File &quot;D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入学校名称&#x27;]&quot;)输入信息dake。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)。
+INFO     web_log:BasePage.py:141 等待元素(&#x27;xpath&#x27;, &#x27;//td[6]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:322 截图文件保存在：D:\git_web_project\merchant_web_framework\Outputs\screenshots，文件名为2019-12-20 10-35-32_等待元素在页面存在.png
+ERROR    web_log:BasePage.py:149 元素(&#x27;xpath&#x27;, &#x27;//td[6]/div[1]&#x27;)不存在！
+Traceback (most recent call last):
+  File &quot;D:\git_web_project\merchant_web_framework\Common\BasePage.py&quot;, line 143, in if_ele_is_exist
+    WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+  File &quot;D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.006999969482421875
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:暂无数据<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test09_search_by_student_name[student_name0]</td>
+          <td class="col-duration">2.08</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)输入信息汪。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)。
+INFO     web_log:BasePage.py:141 等待元素(&#x27;xpath&#x27;, &#x27;//td[2]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:200 查找元素(&#x27;xpath&#x27;, &#x27;//td[2]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[2]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[2]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[2]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:汪星月<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test09_search_by_student_name[student_name1]</td>
+          <td class="col-duration">13.51</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stderr call------------------------------ <br/>2019-12-20 10:35:47,957 - [ERROR] - 元素(&#x27;xpath&#x27;, &#x27;//td[2]/div[1]&#x27;)不存在！ - if_ele_is_exist - 149
+Traceback (most recent call last):
+  File &quot;D:\git_web_project\merchant_web_framework\Common\BasePage.py&quot;, line 143, in if_ele_is_exist
+    WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+  File &quot;D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:238 元素(&#x27;xpath&#x27;, &quot;//input[@placeholder=&#x27;请输入姓名&#x27;]&quot;)输入信息dake。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[text()=&#x27;搜索&#x27;]&quot;)。
+INFO     web_log:BasePage.py:141 等待元素(&#x27;xpath&#x27;, &#x27;//td[2]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:322 截图文件保存在：D:\git_web_project\merchant_web_framework\Outputs\screenshots，文件名为2019-12-20 10-35-47_等待元素在页面存在.png
+ERROR    web_log:BasePage.py:149 元素(&#x27;xpath&#x27;, &#x27;//td[2]/div[1]&#x27;)不存在！
+Traceback (most recent call last):
+  File &quot;D:\git_web_project\merchant_web_framework\Common\BasePage.py&quot;, line 143, in if_ele_is_exist
+    WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+  File &quot;D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py&quot;, line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.011999845504760742
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:暂无数据<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test10_remove_student_tip_text</td>
+          <td class="col-duration">1.86</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]&#x27;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]&#x27;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button color_b el-button--danger el-button--small&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button color_b el-button--danger el-button--small&#x27;]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015000104904174805
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:确认将该学生从当前标签中移除？<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test11_remove_student</td>
+          <td class="col-duration">4.05</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[5]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01699995994567871
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[5]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[5]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200204280829
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]&#x27;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[1]/div[1]/label[1]/span[1]/span[1]&#x27;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button color_b el-button--danger el-button--small&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button color_b el-button--danger el-button--small&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[contains(text(),&#x27;确定&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[contains(text(),&#x27;确定&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//p[@class=&#x27;el-message__content&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:操作完成
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[5]/div[1]&#x27;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.009000062942504883
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[5]/div[1]&#x27;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &#x27;//tr[1]/td[5]/div[1]&#x27;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200110276562<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_04_student_tag.py::TestStudentTag::test12_remove_all_students</td>
+          <td class="col-duration">6.71</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//th[contains(@class,&#x27;is-leaf&#x27;)]//span[@class=&#x27;el-checkbox__inner&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//th[contains(@class,&#x27;is-leaf&#x27;)]//span[@class=&#x27;el-checkbox__inner&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button color_b el-button--danger el-button--small&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button[@class=&#x27;el-button color_b el-button--danger el-button--small&#x27;]&quot;)。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[contains(text(),&#x27;确定&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//span[contains(text(),&#x27;确定&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000249862670898
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//span[@class=&#x27;el-table__empty-text&#x27;]&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:暂无数据
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//tr[1]//button//span[contains(text(),&#x27;删除&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//tr[1]//button//span[contains(text(),&#x27;删除&#x27;)]&quot;)。
+INFO     web_log:BasePage.py:158 等待元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.016000032424926758
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)可见。
+INFO     web_log:BasePage.py:273 获取元素(&#x27;xpath&#x27;, &quot;//div[@class=&#x27;el-message-box__message&#x27;]//p&quot;)的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:确认是否删除该学生标签？删除后，该标签下的学生也会被移除。
+INFO     web_log:BasePage.py:180 元素(&#x27;xpath&#x27;, &quot;//button//span[contains(text(),&#x27;确定&#x27;)]&quot;)可见。
+INFO     web_log:BasePage.py:222 点击元素(&#x27;xpath&#x27;, &quot;//button//span[contains(text(),&#x27;确定&#x27;)]&quot;)。<br/></div></td></tr></tbody></table></body></html>

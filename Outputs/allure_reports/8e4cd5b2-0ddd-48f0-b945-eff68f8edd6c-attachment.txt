@@ -1,0 +1,25 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='请输入完整证件号或末4位']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='请输入完整证件号或末4位']")输入信息5628。
+INFO     web_log:BasePage.py:180 元素('xpath', "//span[text()='搜索']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//span[text()='搜索']")。
+INFO     web_log:BasePage.py:200 查找元素('xpath', '//td[4]/div')可见。
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]//td[4]//div')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]//td[4]//div')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]//td[4]//div')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200205195628
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[2]//td[4]//div')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[2]//td[4]//div')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[2]//td[4]//div')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200111065628
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[3]//td[4]//div')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012000083923339844
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[3]//td[4]//div')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[3]//td[4]//div')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200204245628
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[4]//td[4]//div')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[4]//td[4]//div')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[4]//td[4]//div')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:430124200206275628

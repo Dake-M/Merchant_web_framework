@@ -1,0 +1,26 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//input[@placeholder='请输入学校名称']")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//input[@placeholder='请输入学校名称']")输入信息Gander。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='搜索']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='搜索']")。
+INFO     web_log:BasePage.py:141 等待元素('xpath', '//td[6]/div[1]')可见。
+INFO     web_log:BasePage.py:200 查找元素('xpath', '//td[6]/div[1]')可见。
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]/td[6]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.01399993896484375
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]/td[6]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]/td[6]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[2]/td[6]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.014000177383422852
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[2]/td[6]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[2]/td[6]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[3]/td[6]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[3]/td[6]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[3]/td[6]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[4]/td[6]/div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[4]/td[6]/div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[4]/td[6]/div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:Gander网校

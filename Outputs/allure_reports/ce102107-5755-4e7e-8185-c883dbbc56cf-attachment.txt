@@ -1,0 +1,8 @@
+2019-12-20 10:35:32,355 - [ERROR] - 元素('xpath', '//td[6]/div[1]')不存在！ - if_ele_is_exist - 149
+Traceback (most recent call last):
+  File "D:\git_web_project\merchant_web_framework\Common\BasePage.py", line 143, in if_ele_is_exist
+    WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(loc))
+  File "D:\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

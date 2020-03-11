@@ -1,0 +1,43 @@
+INFO     web_log:BasePage.py:180 元素('xpath', "//label[contains(.,'标签名称')]/following-sibling::div//input")可见。
+INFO     web_log:BasePage.py:238 元素('xpath', "//label[contains(.,'标签名称')]/following-sibling::div//input")输入信息dake_tag。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[text()='确 定']")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[text()='确 定']")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//p[@class='el-message__content']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', "//p[@class='el-message__content']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//p[@class='el-message__content']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:添加成功
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]//td[2]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]//td[2]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]//td[2]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:dake_tag
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]//td[4]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.015999794006347656
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]//td[4]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]//td[4]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:教育局
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]//td[2]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.008999824523925781
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]//td[2]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]//td[2]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:dake_tag
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//tr[1]//td[4]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.012999773025512695
+INFO     web_log:BasePage.py:180 元素('xpath', '//tr[1]//td[4]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//tr[1]//td[4]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:教育局
+INFO     web_log:BasePage.py:180 元素('xpath', "//tr[1]//button//span[contains(text(),'删除')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//tr[1]//button//span[contains(text(),'删除')]")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//div[@class='el-message-box__message']//p")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', "//div[@class='el-message-box__message']//p")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//div[@class='el-message-box__message']//p")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:确认是否删除该学生标签？删除后，该标签下的学生也会被移除。
+INFO     web_log:BasePage.py:180 元素('xpath', "//button//span[contains(text(),'确定')]")可见。
+INFO     web_log:BasePage.py:222 点击元素('xpath', "//button//span[contains(text(),'确定')]")。
+INFO     web_log:BasePage.py:158 等待元素('xpath', "//p[@class='el-message__content']")存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.006999969482421875
+INFO     web_log:BasePage.py:180 元素('xpath', "//p[@class='el-message__content']")可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', "//p[@class='el-message__content']")的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:删除成功!

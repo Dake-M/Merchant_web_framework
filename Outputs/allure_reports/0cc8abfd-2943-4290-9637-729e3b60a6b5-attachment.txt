@@ -1,0 +1,10 @@
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[2]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.016000032424926758
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[2]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[2]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:学校名称
+INFO     web_log:BasePage.py:158 等待元素('xpath', '//th[5]//div[1]')存在。
+INFO     web_log:BasePage.py:171 等待时长为：0.013000011444091797
+INFO     web_log:BasePage.py:180 元素('xpath', '//th[5]//div[1]')可见。
+INFO     web_log:BasePage.py:273 获取元素('xpath', '//th[5]//div[1]')的文本值。
+INFO     web_log:BasePage.py:284 获取到的元素文本内容为:累计收费金额
