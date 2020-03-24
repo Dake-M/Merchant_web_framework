@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/PageObjects/student_tag_page.py" line="279" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1993ef86-c752-4c9d-a65a-ff147d290ba5" name="Default Changelist" comment="" />
+    <list default="true" id="1993ef86-c752-4c9d-a65a-ff147d290ba5" name="Default Changelist" comment="新增信息">
+      <change afterPath="$PROJECT_DIR$/Common/Ran_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/school_list_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/school_list_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/school_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/school_list_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_05_school_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_05_school_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/Common_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestDatas/Common_Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,27 +17,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$student_list_page.coverage" NAME="student_list_page Coverage Results" MODIFIED="1574749075263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObjects" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test_01_merchant_login_py.coverage" NAME="pytest in test_01_merchant_login.py Coverage Results" MODIFIED="1576461295946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_04_student_tag_TestStudentTag_test04_normal_add_tag.coverage" NAME="pytest for test_04_student_tag.TestStudentTag.test04_normal_add_tag Coverage Results" MODIFIED="1576563417239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test01_merchant_login_py.coverage" NAME="pytest in test01_merchant_login.py Coverage Results" MODIFIED="1574669501777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$main.coverage" NAME="main Coverage Results" MODIFIED="1576476237600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test_04_student_tag_py.coverage" NAME="pytest in test_04_student_tag.py Coverage Results" MODIFIED="1576652317227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1574751459445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_04_student_tag_TestStudentTag_test05_unnormal_add_tag.coverage" NAME="pytest for test_04_student_tag.TestStudentTag.test05_unnormal_add_tag Coverage Results" MODIFIED="1576562760610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test02_search_school_by_name.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test02_search_school_by_name Coverage Results" MODIFIED="1576219560717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_02_home_page_TestHome_test09_quit_login.coverage" NAME="pytest for test_02_home_page.TestHome.test09_quit_login Coverage Results" MODIFIED="1574737580808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$Ran_str.coverage" NAME="Ran_str Coverage Results" MODIFIED="1584929871080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$test01.coverage" NAME="test01 Coverage Results" MODIFIED="1577355789085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test02_search_school.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test02_search_school Coverage Results" MODIFIED="1576210805741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test_02_home_page_py.coverage" NAME="pytest in test_02_home_page.py Coverage Results" MODIFIED="1576220655381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test02_home_page_py.coverage" NAME="pytest in test_02_home_page.py Coverage Results" MODIFIED="1574737608224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test06_school_search_student_by_id.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test06_school_search_student_by_id Coverage Results" MODIFIED="1576226357845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test04_into_school_detail.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test04_into_school_detail Coverage Results" MODIFIED="1576226131843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$pytest_in_test_01_merchant_login_py.coverage" NAME="pytest in test_01_merchant_login.py Coverage Results" MODIFIED="1578910379536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test01_merchant_login_TestLogin_test01_merchant_login_success.coverage" NAME="pytest for test01_merchant_login.TestLogin.test01_merchant_login_success Coverage Results" MODIFIED="1574668591120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test01_merchant_login_TestLogin_test02_merchant_login_unverify.coverage" NAME="pytest for test01_merchant_login.TestLogin.test02_merchant_login_unverify Coverage Results" MODIFIED="1574669489716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test_03_student_list_page_py.coverage" NAME="pytest in test_03_student_list_page.py Coverage Results" MODIFIED="1576464958988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudenList_test01.coverage" NAME="pytest for test_03_student_list_page.TestStudenList.test01 Coverage Results" MODIFIED="1574751663879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test01_title_info.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test01_title_info Coverage Results" MODIFIED="1576205207777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1584499312940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$student_list_page.coverage" NAME="student_list_page Coverage Results" MODIFIED="1574749075263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObjects" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_04_student_tag_TestStudentTag_test04_normal_add_tag.coverage" NAME="pytest for test_04_student_tag.TestStudentTag.test04_normal_add_tag Coverage Results" MODIFIED="1576563417239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$main.coverage" NAME="main Coverage Results" MODIFIED="1576476237600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$fake.coverage" NAME="fake Coverage Results" MODIFIED="1583894394095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1574751459445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$main.coverage" NAME="main Coverage Results" MODIFIED="1577424508198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test02_search_school_by_name.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test02_search_school_by_name Coverage Results" MODIFIED="1576219560717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_02_home_page_TestHome_test09_quit_login.coverage" NAME="pytest for test_02_home_page.TestHome.test09_quit_login Coverage Results" MODIFIED="1574737580808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_in_test02_home_page_py.coverage" NAME="pytest in test_02_home_page.py Coverage Results" MODIFIED="1574737608224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test06_school_search_student_by_id.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test06_school_search_student_by_id Coverage Results" MODIFIED="1576226357845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test04_into_school_detail.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test04_into_school_detail Coverage Results" MODIFIED="1576226131843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test01_merchant_login_TestLogin_test02_merchant_login_unverify.coverage" NAME="pytest for test01_merchant_login.TestLogin.test02_merchant_login_unverify Coverage Results" MODIFIED="1574669489716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test01_merchant_login_TestLogin_test03_merchant_login_unnormale.coverage" NAME="pytest for test01_merchant_login.TestLogin.test03_merchant_login_unnormale Coverage Results" MODIFIED="1574670138021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/merchant_web_framework$test03.coverage" NAME="test03 Coverage Results" MODIFIED="1585017439445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Merchant_Web_framework$pytest_for_test_03_student_list_page_TestStudentList_test05_school_search_student_by_name.coverage" NAME="pytest for test_03_student_list_page.TestStudentList.test05_school_search_student_by_name Coverage Results" MODIFIED="1576226226763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -77,14 +89,115 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1941218734">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="ini" value="1" />
+          <entry key="log" value="1" />
+          <entry key="png" value="2" />
+          <entry key="py" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="32" />
+          <entry key="py" value="5987" />
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="5987" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="merchant_web_framework" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageObjects/school_list_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="182" column="73" lean-forward="true" selection-start-line="182" selection-start-column="73" selection-end-line="182" selection-end-column="73" />
+              <folding>
+                <element signature="e#190#201#0" expanded="true" />
+                <marker date="1585021271821" expanded="true" signature="646:1403" ph="..." />
+                <marker date="1585021271821" expanded="true" signature="2450:2456" ph="..." />
+                <marker date="1585021271821" expanded="true" signature="3293:3298" ph="..." />
+                <marker date="1585021271821" expanded="true" signature="4164:4170" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_05_school_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+              <folding>
+                <marker date="1585021538696" expanded="true" signature="276:281" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageLocators/school_list_locators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_04_student_tag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="761">
+              <caret line="200" selection-start-line="200" selection-end-line="201" selection-end-column="17" />
+              <folding>
+                <element signature="e#197#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageObjects/student_tag_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="267" column="11" lean-forward="true" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+            <state relative-caret-position="858">
+              <caret line="36" column="88" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="88" />
               <folding>
                 <element signature="e#190#201#0" expanded="true" />
                 <marker date="1576652097032" expanded="true" signature="379:384" ph="..." />
@@ -99,36 +212,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PageLocators/student_tag_locators.py">
+        <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="92" column="19" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="19" />
-              <folding>
-                <marker date="1576651747650" expanded="true" signature="248:253" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_04_student_tag.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="200" column="26" lean-forward="true" selection-start-line="200" selection-start-column="26" selection-end-line="200" selection-end-column="26" />
-              <folding>
-                <element signature="e#197#210#0" expanded="true" />
-                <marker date="1576652286289" expanded="true" signature="327:332" ph="..." />
-                <marker date="1576652286289" expanded="true" signature="2668:3106" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestDatas/student_tag_datas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="25" column="12" selection-start-line="25" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="512">
+              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -136,43 +223,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/BasePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <marker date="1576650809071" expanded="true" signature="596:684" ph="..." />
-                <marker date="1576650809071" expanded="true" signature="6787:7056" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Outputs/logs/web_log.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="1133" column="58" selection-start-line="1133" selection-start-column="52" selection-end-line="1133" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestDatas/student_list_datas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+            <state relative-caret-position="1188">
+              <caret line="287" column="11" lean-forward="true" selection-start-line="287" selection-start-column="11" selection-end-line="287" selection-end-column="11" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
-                <marker date="1576477856365" expanded="true" signature="625:626" ph="..." />
+                <marker date="1584934410980" expanded="true" signature="7847:7853" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestDatas/school_list_datas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PageLocators/student_tag_locators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1612">
+              <caret line="62" column="69" selection-start-line="62" selection-start-column="69" selection-end-line="62" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -186,6 +269,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -197,7 +283,6 @@
         <option value="$PROJECT_DIR$/PageObjects/home_page.py" />
         <option value="$PROJECT_DIR$/TestCases/test02_home_page.py" />
         <option value="$PROJECT_DIR$/PageLocators/student_list_page.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Api/1.py" />
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/PageObjects/2.py" />
@@ -209,21 +294,32 @@
         <option value="$PROJECT_DIR$/TestCases/test_03_student_list_page.py" />
         <option value="$PROJECT_DIR$/TestCases/test04_student_tag_page.py" />
         <option value="$PROJECT_DIR$/TestCases/test_02_home_page.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/PageLocators/student_tag.py" />
-        <option value="$PROJECT_DIR$/TestCases/conftest.py" />
-        <option value="$PROJECT_DIR$/TestCases/test_01_merchant_login.py" />
-        <option value="$PROJECT_DIR$/TestDatas/Common_Data.py" />
         <option value="$PROJECT_DIR$/Common/DIR.py" />
         <option value="$PROJECT_DIR$/TestCases/test_03_student_list.py" />
         <option value="$PROJECT_DIR$/PageLocators/student_list_locators.py" />
-        <option value="$PROJECT_DIR$/PageObjects/student_list_page.py" />
         <option value="$PROJECT_DIR$/Outputs/logs/web_log.log" />
         <option value="$PROJECT_DIR$/TestDatas/student_tag_datas.py" />
-        <option value="$PROJECT_DIR$/Common/BasePage.py" />
         <option value="$PROJECT_DIR$/PageLocators/student_tag_locators.py" />
         <option value="$PROJECT_DIR$/PageObjects/student_tag_page.py" />
         <option value="$PROJECT_DIR$/TestCases/test_04_student_tag.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_05_student_list.py" />
+        <option value="$PROJECT_DIR$/TestCases/conftest.py" />
+        <option value="$PROJECT_DIR$/PageObjects/student_list_page.py" />
+        <option value="$PROJECT_DIR$/test01.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Common/fake.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_01_merchant_login.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/TestDatas/Common_Data.py" />
+        <option value="$PROJECT_DIR$/Common/Random.py" />
+        <option value="$PROJECT_DIR$/Common/Ran_str.py" />
+        <option value="$PROJECT_DIR$/TestDatas/school_list_datas.py" />
+        <option value="$PROJECT_DIR$/Common/BasePage.py" />
+        <option value="$PROJECT_DIR$/PageLocators/school_list_locators.py" />
+        <option value="$PROJECT_DIR$/test03.py" />
+        <option value="$PROJECT_DIR$/PageObjects/school_list_page.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_05_school_list.py" />
       </list>
     </option>
   </component>
@@ -233,81 +329,66 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="561" />
-    <option name="y" value="202" />
-    <option name="width" value="1135" />
-    <option name="height" value="616" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="206" />
+    <option name="y" value="184" />
+    <option name="width" value="1453" />
+    <option name="height" value="912" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant_web_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchant_web_framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant_web_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchant_web_framework" type="462c0819:PsiDirectoryNode" />
               <item name="Common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Outputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Outputs" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant_web_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchant_web_framework" type="462c0819:PsiDirectoryNode" />
               <item name="PageLocators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant_web_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchant_web_framework" type="462c0819:PsiDirectoryNode" />
               <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant_web_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchant_web_framework" type="462c0819:PsiDirectoryNode" />
               <item name="TestCases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Merchant_Web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Merchant_Web_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant_web_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="merchant_web_framework" type="462c0819:PsiDirectoryNode" />
               <item name="TestDatas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Group_Api_payment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_web_project\merchant_web_framework\TestDatas" />
       <recent name="D:\Merchant_Web_framework\Api" />
       <recent name="D:\Merchant_Web_framework\TestDatas" />
       <recent name="D:\Merchant_Web_framework" />
@@ -325,8 +406,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_04_student_tag.py">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test03">
+    <configuration name="Ran_str" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Merchant_Web_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/Ran_str.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fake" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Merchant_Web_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/fake.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Merchant_Web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +464,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,23 +473,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_04_student_tag.TestStudentTag.test04_normal_add_tag" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="test03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Merchant_Web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_04_student_tag.TestStudentTag.test04_normal_add_tag&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_04_student_tag.TestStudentTag.test05_unnormal_add_tag" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_01_merchant_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Merchant_Web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,56 +507,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_04_student_tag.TestStudentTag.test05_unnormal_add_tag&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_03_student_list.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Merchant_Web_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/test_03_student_list.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_04_student_tag.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Merchant_Web_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/test_04_student_tag.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/test_01_merchant_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_03_student_list.py" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.pytest in test_04_student_tag.py" />
-      <item itemvalue="Python tests.pytest for test_04_student_tag.TestStudentTag.test05_unnormal_add_tag" />
-      <item itemvalue="Python tests.pytest for test_04_student_tag.TestStudentTag.test04_normal_add_tag" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.pytest in test_01_merchant_login.py" />
+      <item itemvalue="Python.fake" />
+      <item itemvalue="Python.test03" />
+      <item itemvalue="Python.Ran_str" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_04_student_tag.py" />
-        <item itemvalue="Python tests.pytest for test_04_student_tag.TestStudentTag.test04_normal_add_tag" />
-        <item itemvalue="Python tests.pytest for test_04_student_tag.TestStudentTag.test05_unnormal_add_tag" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest in test_03_student_list.py" />
+        <item itemvalue="Python.test03" />
+        <item itemvalue="Python.Ran_str" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.fake" />
+        <item itemvalue="Python tests.pytest in test_01_merchant_login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -440,12 +539,17 @@
       <option name="presentableId" value="Default" />
       <updated>1574656458709</updated>
     </task>
+    <task id="LOCAL-00001" summary="新增信息">
+      <created>1583895347155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583895347155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_04_student_tag_py - 2019.12.18 at 12h 32m 39s.xml">
-      <configuration name="pytest in test_04_student_tag.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_04_student_tag_py - 2019.12.18 at 12h 34m 37s.xml">
       <configuration name="pytest in test_04_student_tag.py" configurationId="tests" />
     </history-entry>
@@ -473,27 +577,39 @@
     <history-entry file="pytest_in_test_04_student_tag_py - 2019.12.18 at 15h 00m 08s.xml">
       <configuration name="pytest in test_04_student_tag.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_01_merchant_login_py - 2020.01.13 at 18h 14m 33s.xml">
+      <configuration name="pytest in test_01_merchant_login.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="-8" width="1859" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15063925" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.11339633" />
+      <window_info id="Structure" order="1" sideWeight="0.5013774" side_tool="true" weight="0.15063925" />
+      <window_info id="Favorites" order="2" sideWeight="0.5013774" side_tool="true" weight="0.15063925" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3010157" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17837338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32994455" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.23752311" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.23752311" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32994455" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -504,55 +620,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增信息" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Configs/config.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1410413755/_elementtree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="976">
-          <caret line="141" column="17" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="160" column="51" lean-forward="true" selection-start-line="160" selection-start-column="51" selection-end-line="160" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/api_objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/1.py" />
-    <entry file="file://$PROJECT_DIR$/1.py" />
-    <entry file="file://$PROJECT_DIR$/PageObjects/2.py" />
-    <entry file="file://$PROJECT_DIR$/PageObjects/student_list_page1.py" />
-    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -561,30 +646,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestDatas/3.py" />
-    <entry file="file://$PROJECT_DIR$/PageObjects/home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjects/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Outputs/screenshots/2019-12-16 09-56-24_点击学生管理.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -595,131 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_02_home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageLocators/home_page_locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PageLocators/login_page_locators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-            <marker date="1576477856365" expanded="true" signature="625:626" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDatas/login_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_01_merchant_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDatas/Common_Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/LOAD_FILE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/DIR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDatas/student_list_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_03_student_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
-          <folding>
-            <element signature="e#199#212#0" expanded="true" />
-            <marker date="1576638892042" expanded="true" signature="349:354" ph="..." />
-            <marker date="1576638892042" expanded="true" signature="670:1131" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjects/student_list_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="168" column="67" lean-forward="true" selection-start-line="168" selection-start-column="67" selection-end-line="168" selection-end-column="67" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#191#202#0" expanded="true" />
-            <marker date="1576640355328" expanded="true" signature="608:1237" ph="..." />
-            <marker date="1576640355328" expanded="true" signature="1561:1842" ph="..." />
-            <marker date="1576640355328" expanded="true" signature="3705:3846" ph="..." />
-            <marker date="1576640355328" expanded="true" signature="4034:4962" ph="..." />
-            <marker date="1576640355328" expanded="true" signature="4994:5090" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageLocators/student_list_locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <marker date="1576639386801" expanded="true" signature="88:93" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,20 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDatas/student_tag_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="12" selection-start-line="25" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Outputs/logs/web_log.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1133" column="58" selection-start-line="1133" selection-start-column="52" selection-end-line="1133" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -751,31 +677,267 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/BasePage.py">
+    <entry file="file://$PROJECT_DIR$/Outputs/screenshots/2019-12-20 09-56-21_等待元素在页面存在.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/screenshots/2019-12-20 09-55-55_等待元素在页面存在.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/reports/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Outputs/logs/web_log.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="10348">
+          <caret line="398" column="79" selection-start-line="398" selection-start-column="79" selection-end-line="398" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1410413755/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4729">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="1448" column="14" selection-start-line="1448" selection-start-column="7" selection-end-line="1448" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/api_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/LOG.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/MYSQL.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjects/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/site-packages/faker/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDatas/student_tag_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_02_home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_01_merchant_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/fake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageLocators/home_page_locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjects/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_03_student_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDatas/student_list_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/LOAD_FILE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjects/student_list_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="87" column="44" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageLocators/student_list_locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1378">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/EXCEL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python37/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="218" column="39" selection-start-line="218" selection-start-column="39" selection-end-line="218" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/DIR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
-            <marker date="1576650809071" expanded="true" signature="596:684" ph="..." />
-            <marker date="1576650809071" expanded="true" signature="6787:7056" ph="..." />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDatas/login_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Ran_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#179#192#0" expanded="true" />
+            <marker date="1584929907147" expanded="true" signature="208:209" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1924">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PageLocators/student_tag_locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="19" />
+        <state relative-caret-position="1612">
+          <caret line="62" column="69" selection-start-line="62" selection-start-column="69" selection-end-line="62" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDatas/Common_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="287" column="11" lean-forward="true" selection-start-line="287" selection-start-column="11" selection-end-line="287" selection-end-column="11" />
           <folding>
-            <marker date="1576651747650" expanded="true" signature="248:253" ph="..." />
+            <element signature="e#24#33#0" expanded="true" />
+            <marker date="1584934410980" expanded="true" signature="7847:7853" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDatas/school_list_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PageObjects/student_tag_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="267" column="11" lean-forward="true" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+        <state relative-caret-position="858">
+          <caret line="36" column="88" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="88" />
           <folding>
             <element signature="e#190#201#0" expanded="true" />
             <marker date="1576652097032" expanded="true" signature="379:384" ph="..." />
@@ -788,14 +950,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageLocators/school_list_locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjects/school_list_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="182" column="73" lean-forward="true" selection-start-line="182" selection-start-column="73" selection-end-line="182" selection-end-column="73" />
+          <folding>
+            <element signature="e#190#201#0" expanded="true" />
+            <marker date="1585021271821" expanded="true" signature="646:1403" ph="..." />
+            <marker date="1585021271821" expanded="true" signature="2450:2456" ph="..." />
+            <marker date="1585021271821" expanded="true" signature="3293:3298" ph="..." />
+            <marker date="1585021271821" expanded="true" signature="4164:4170" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_04_student_tag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="200" column="26" lean-forward="true" selection-start-line="200" selection-start-column="26" selection-end-line="200" selection-end-column="26" />
+        <state relative-caret-position="761">
+          <caret line="200" selection-start-line="200" selection-end-line="201" selection-end-column="17" />
           <folding>
             <element signature="e#197#210#0" expanded="true" />
-            <marker date="1576652286289" expanded="true" signature="327:332" ph="..." />
-            <marker date="1576652286289" expanded="true" signature="2668:3106" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_05_school_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <marker date="1585021538696" expanded="true" signature="276:281" ph="..." />
           </folding>
         </state>
       </provider>
