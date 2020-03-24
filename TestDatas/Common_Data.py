@@ -12,7 +12,7 @@ boss_user = {"user": "13266816551", "pwd": "123456"}
 
 # 运营商登录地址/帐号密码
 login_merchant_url = "https://payexp.snsshop.net/merchant/login"
-merchant_user = {"user": "13222222222", "pwd": "13222222222"}
+merchant_user = {"user": "17200121141", "pwd": "17200121141"}
 
 # 学校登录地址
 login_school_url = "https://payexp.snsshop.net/login"
